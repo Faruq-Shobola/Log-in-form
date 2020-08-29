@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI;
+}
+
+body {
+    background-image: url(Form\ Background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 800px;
+    height: 520px;
+    margin: 40px auto;
+}
+
+.wrapper > div {
+    display: inline-block;
+    width: 320px;
+    height: inherit;
+    padding: 40px;
+}
+
+.sign_in_with {
+    background-image: linear-gradient(to right, rgba(4, 96, 205, .3), rgba(4, 96, 205,.2)), url(blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 320px;
+}
+
+.sign_in_with h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.sign_in_with .btn {
+    position: absolute;
+    width: 320px;
+    bottom: 20%;
+}
+
+.google_sign_in,
+.facebook_sign_in,
+.btn_sign_in {
+    width: 100%;
+    
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px 0px;
+    background-color: transparent;
+    outline: none;
+    padding: 12px 5px;
+    display: block;
+    cursor: pointer;
+}
+
+i {
+    padding-right: 10px;
+}
+
+
+
+
+
+
+.form {
+    background-color: #fff;
+    float: right;
+    position: relative;
+    padding: 0px 30px;
+    width: 300px;
+}
+
+.form .btn {
+    float: right;
+}
+
+.login,
+.reg {
+    border: none;
+    outline: none;
+    padding: 4px 10px;
+    margin: -3px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: transparent;
+    border: 1px solid #b5b5b5;    
+}
+
+.reg {
+    background-color: #0460cd;
+    color: #fff;
+    border: 1px solid #0460cd;
+
+}
+
+.__form {
+    position: absolute;
+    top: 160px;
+    width: 320px;
+}
+
+.__form h3 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+input {
+    display: block;
+    width: 97%;
+    padding: 8px 3px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+
+}
+
+input:active,
+input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.btn_sign_in {
+    margin-top: 20px;
+    background-color: #0460cd;
+    border: none;
+}
+
+.sign_in a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sign_in .not_a_mem{
+    float: right;
+}
